@@ -16,6 +16,7 @@
 		ADF400A72354E3300007E1E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF400A52354E3300007E1E9 /* LaunchScreen.storyboard */; };
 		ADF400B22354E3300007E1E9 /* Send_ItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF400B12354E3300007E1E9 /* Send_ItTests.swift */; };
 		ADF400BD2354E3300007E1E9 /* Send_ItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF400BC2354E3300007E1E9 /* Send_ItUITests.swift */; };
+		ADF400CB2354E7440007E1E9 /* MessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF400CA2354E7440007E1E9 /* MessageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		ADF400B82354E3300007E1E9 /* Send-ItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Send-ItUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF400BC2354E3300007E1E9 /* Send_ItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_ItUITests.swift; sourceTree = "<group>"; };
 		ADF400BE2354E3300007E1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF400CA2354E7440007E1E9 /* MessageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				ADF400A82354E3300007E1E9 /* Info.plist */,
 				ADF4009B2354E32E0007E1E9 /* Send_It.xcdatamodeld */,
 				ADF400A22354E3300007E1E9 /* Preview Content */,
+				ADF400CA2354E7440007E1E9 /* MessageData.swift */,
 			);
 			path = "Send-It";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF400CB2354E7440007E1E9 /* MessageData.swift in Sources */,
 				ADF4009D2354E32E0007E1E9 /* Send_It.xcdatamodeld in Sources */,
 				ADF400982354E32E0007E1E9 /* AppDelegate.swift in Sources */,
 				ADF4009F2354E32E0007E1E9 /* ContentView.swift in Sources */,
