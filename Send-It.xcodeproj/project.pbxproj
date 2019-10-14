@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADF400982354E32E0007E1E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF400972354E32E0007E1E9 /* AppDelegate.swift */; };
+		ADF4009A2354E32E0007E1E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF400992354E32E0007E1E9 /* SceneDelegate.swift */; };
+		ADF4009D2354E32E0007E1E9 /* Send_It.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADF4009B2354E32E0007E1E9 /* Send_It.xcdatamodeld */; };
+		ADF4009F2354E32E0007E1E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4009E2354E32E0007E1E9 /* ContentView.swift */; };
+		ADF400A12354E3300007E1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF400A02354E3300007E1E9 /* Assets.xcassets */; };
+		ADF400A42354E3300007E1E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF400A32354E3300007E1E9 /* Preview Assets.xcassets */; };
+		ADF400A72354E3300007E1E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF400A52354E3300007E1E9 /* LaunchScreen.storyboard */; };
+		ADF400B22354E3300007E1E9 /* Send_ItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF400B12354E3300007E1E9 /* Send_ItTests.swift */; };
+		ADF400BD2354E3300007E1E9 /* Send_ItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF400BC2354E3300007E1E9 /* Send_ItUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADF400AE2354E3300007E1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADF4008C2354E32E0007E1E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF400932354E32E0007E1E9;
+			remoteInfo = "Send-It";
+		};
+		ADF400B92354E3300007E1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADF4008C2354E32E0007E1E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF400932354E32E0007E1E9;
+			remoteInfo = "Send-It";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADF400942354E32E0007E1E9 /* Send-It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Send-It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF400972354E32E0007E1E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADF400992354E32E0007E1E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ADF4009C2354E32E0007E1E9 /* Send_It.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Send_It.xcdatamodel; sourceTree = "<group>"; };
+		ADF4009E2354E32E0007E1E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADF400A02354E3300007E1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADF400A32354E3300007E1E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADF400A62354E3300007E1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADF400A82354E3300007E1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF400AD2354E3300007E1E9 /* Send-ItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Send-ItTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF400B12354E3300007E1E9 /* Send_ItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_ItTests.swift; sourceTree = "<group>"; };
+		ADF400B32354E3300007E1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF400B82354E3300007E1E9 /* Send-ItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Send-ItUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF400BC2354E3300007E1E9 /* Send_ItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_ItUITests.swift; sourceTree = "<group>"; };
+		ADF400BE2354E3300007E1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADF400912354E32E0007E1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF400AA2354E3300007E1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF400B52354E3300007E1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADF4008B2354E32E0007E1E9 = {
+			isa = PBXGroup;
+			children = (
+				ADF400962354E32E0007E1E9 /* Send-It */,
+				ADF400B02354E3300007E1E9 /* Send-ItTests */,
+				ADF400BB2354E3300007E1E9 /* Send-ItUITests */,
+				ADF400952354E32E0007E1E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADF400952354E32E0007E1E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADF400942354E32E0007E1E9 /* Send-It.app */,
+				ADF400AD2354E3300007E1E9 /* Send-ItTests.xctest */,
+				ADF400B82354E3300007E1E9 /* Send-ItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADF400962354E32E0007E1E9 /* Send-It */ = {
+			isa = PBXGroup;
+			children = (
+				ADF400972354E32E0007E1E9 /* AppDelegate.swift */,
+				ADF400992354E32E0007E1E9 /* SceneDelegate.swift */,
+				ADF4009E2354E32E0007E1E9 /* ContentView.swift */,
+				ADF400A02354E3300007E1E9 /* Assets.xcassets */,
+				ADF400A52354E3300007E1E9 /* LaunchScreen.storyboard */,
+				ADF400A82354E3300007E1E9 /* Info.plist */,
+				ADF4009B2354E32E0007E1E9 /* Send_It.xcdatamodeld */,
+				ADF400A22354E3300007E1E9 /* Preview Content */,
+			);
+			path = "Send-It";
+			sourceTree = "<group>";
+		};
+		ADF400A22354E3300007E1E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ADF400A32354E3300007E1E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADF400B02354E3300007E1E9 /* Send-ItTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADF400B12354E3300007E1E9 /* Send_ItTests.swift */,
+				ADF400B32354E3300007E1E9 /* Info.plist */,
+			);
+			path = "Send-ItTests";
+			sourceTree = "<group>";
+		};
+		ADF400BB2354E3300007E1E9 /* Send-ItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADF400BC2354E3300007E1E9 /* Send_ItUITests.swift */,
+				ADF400BE2354E3300007E1E9 /* Info.plist */,
+			);
+			path = "Send-ItUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADF400932354E32E0007E1E9 /* Send-It */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF400C12354E3300007E1E9 /* Build configuration list for PBXNativeTarget "Send-It" */;
+			buildPhases = (
+				ADF400902354E32E0007E1E9 /* Sources */,
+				ADF400912354E32E0007E1E9 /* Frameworks */,
+				ADF400922354E32E0007E1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Send-It";
+			productName = "Send-It";
+			productReference = ADF400942354E32E0007E1E9 /* Send-It.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADF400AC2354E3300007E1E9 /* Send-ItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF400C42354E3300007E1E9 /* Build configuration list for PBXNativeTarget "Send-ItTests" */;
+			buildPhases = (
+				ADF400A92354E3300007E1E9 /* Sources */,
+				ADF400AA2354E3300007E1E9 /* Frameworks */,
+				ADF400AB2354E3300007E1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF400AF2354E3300007E1E9 /* PBXTargetDependency */,
+			);
+			name = "Send-ItTests";
+			productName = "Send-ItTests";
+			productReference = ADF400AD2354E3300007E1E9 /* Send-ItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADF400B72354E3300007E1E9 /* Send-ItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF400C72354E3300007E1E9 /* Build configuration list for PBXNativeTarget "Send-ItUITests" */;
+			buildPhases = (
+				ADF400B42354E3300007E1E9 /* Sources */,
+				ADF400B52354E3300007E1E9 /* Frameworks */,
+				ADF400B62354E3300007E1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF400BA2354E3300007E1E9 /* PBXTargetDependency */,
+			);
+			name = "Send-ItUITests";
+			productName = "Send-ItUITests";
+			productReference = ADF400B82354E3300007E1E9 /* Send-ItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADF4008C2354E32E0007E1E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Allegory;
+				TargetAttributes = {
+					ADF400932354E32E0007E1E9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					ADF400AC2354E3300007E1E9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = ADF400932354E32E0007E1E9;
+					};
+					ADF400B72354E3300007E1E9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = ADF400932354E32E0007E1E9;
+					};
+				};
+			};
+			buildConfigurationList = ADF4008F2354E32E0007E1E9 /* Build configuration list for PBXProject "Send-It" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADF4008B2354E32E0007E1E9;
+			productRefGroup = ADF400952354E32E0007E1E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADF400932354E32E0007E1E9 /* Send-It */,
+				ADF400AC2354E3300007E1E9 /* Send-ItTests */,
+				ADF400B72354E3300007E1E9 /* Send-ItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADF400922354E32E0007E1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF400A72354E3300007E1E9 /* LaunchScreen.storyboard in Resources */,
+				ADF400A42354E3300007E1E9 /* Preview Assets.xcassets in Resources */,
+				ADF400A12354E3300007E1E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF400AB2354E3300007E1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF400B62354E3300007E1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADF400902354E32E0007E1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF4009D2354E32E0007E1E9 /* Send_It.xcdatamodeld in Sources */,
+				ADF400982354E32E0007E1E9 /* AppDelegate.swift in Sources */,
+				ADF4009F2354E32E0007E1E9 /* ContentView.swift in Sources */,
+				ADF4009A2354E32E0007E1E9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF400A92354E3300007E1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF400B22354E3300007E1E9 /* Send_ItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF400B42354E3300007E1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF400BD2354E3300007E1E9 /* Send_ItUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADF400AF2354E3300007E1E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADF400932354E32E0007E1E9 /* Send-It */;
+			targetProxy = ADF400AE2354E3300007E1E9 /* PBXContainerItemProxy */;
+		};
+		ADF400BA2354E3300007E1E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADF400932354E32E0007E1E9 /* Send-It */;
+			targetProxy = ADF400B92354E3300007E1E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADF400A52354E3300007E1E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF400A62354E3300007E1E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADF400BF2354E3300007E1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADF400C02354E3300007E1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADF400C22354E3300007E1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Send-It/Preview Content\"";
+				DEVELOPMENT_TEAM = FPVT6LW728;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Send-It/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.allegory.Send-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADF400C32354E3300007E1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Send-It/Preview Content\"";
+				DEVELOPMENT_TEAM = FPVT6LW728;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Send-It/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.allegory.Send-It";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADF400C52354E3300007E1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPVT6LW728;
+				INFOPLIST_FILE = "Send-ItTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.allegory.Send-ItTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Send-It.app/Send-It";
+			};
+			name = Debug;
+		};
+		ADF400C62354E3300007E1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPVT6LW728;
+				INFOPLIST_FILE = "Send-ItTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.allegory.Send-ItTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Send-It.app/Send-It";
+			};
+			name = Release;
+		};
+		ADF400C82354E3300007E1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPVT6LW728;
+				INFOPLIST_FILE = "Send-ItUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.allegory.Send-ItUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Send-It";
+			};
+			name = Debug;
+		};
+		ADF400C92354E3300007E1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPVT6LW728;
+				INFOPLIST_FILE = "Send-ItUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.allegory.Send-ItUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Send-It";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADF4008F2354E32E0007E1E9 /* Build configuration list for PBXProject "Send-It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF400BF2354E3300007E1E9 /* Debug */,
+				ADF400C02354E3300007E1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF400C12354E3300007E1E9 /* Build configuration list for PBXNativeTarget "Send-It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF400C22354E3300007E1E9 /* Debug */,
+				ADF400C32354E3300007E1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF400C42354E3300007E1E9 /* Build configuration list for PBXNativeTarget "Send-ItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF400C52354E3300007E1E9 /* Debug */,
+				ADF400C62354E3300007E1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF400C72354E3300007E1E9 /* Build configuration list for PBXNativeTarget "Send-ItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF400C82354E3300007E1E9 /* Debug */,
+				ADF400C92354E3300007E1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADF4009B2354E32E0007E1E9 /* Send_It.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADF4009C2354E32E0007E1E9 /* Send_It.xcdatamodel */,
+			);
+			currentVersion = ADF4009C2354E32E0007E1E9 /* Send_It.xcdatamodel */;
+			path = Send_It.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADF4008C2354E32E0007E1E9 /* Project object */;
+}
